@@ -4,14 +4,14 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class DatabaseConnection {
-    public static DatabaseConnection instance = null;
-    //public static DatabaseConnection instance = new DatabaseConnection();
+    private static DatabaseConnection instance = null;
+    //private static DatabaseConnection instance = new DatabaseConnection();
 
     private DatabaseConnection() {
 
     }
 
-    //For multi threaded
+    //For multithreaded
     public static DatabaseConnection getInstance() {
         if(instance == null){
             synchronized (DatabaseConnection.class){
