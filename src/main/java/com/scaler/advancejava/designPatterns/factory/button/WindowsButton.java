@@ -1,4 +1,4 @@
-package com.scaler.advancejava.designPatterns.button;
+package com.scaler.advancejava.designPatterns.factory.button;
 
 public class WindowsButton implements Button {
     @Override

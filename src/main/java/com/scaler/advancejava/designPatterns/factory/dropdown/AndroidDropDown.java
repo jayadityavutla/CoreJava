@@ -1,4 +1,4 @@
-package com.scaler.advancejava.designPatterns.dropdown;
+package com.scaler.advancejava.designPatterns.factory.dropdown;
 
 public class AndroidDropDown implements DropDown{
     @Override

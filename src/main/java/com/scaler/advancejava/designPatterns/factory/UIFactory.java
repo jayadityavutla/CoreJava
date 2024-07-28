@@ -1,7 +1,7 @@
 package com.scaler.advancejava.designPatterns.factory;
 
-import com.scaler.advancejava.designPatterns.button.Button;
-import com.scaler.advancejava.designPatterns.dropdown.DropDown;
+import com.scaler.advancejava.designPatterns.factory.button.Button;
+import com.scaler.advancejava.designPatterns.factory.dropdown.DropDown;
 
 public interface UIFactory {
     Button createButton();

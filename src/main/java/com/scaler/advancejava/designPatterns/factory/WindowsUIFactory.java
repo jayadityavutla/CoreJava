@@ -1,9 +1,9 @@
 package com.scaler.advancejava.designPatterns.factory;
 
-import com.scaler.advancejava.designPatterns.button.Button;
-import com.scaler.advancejava.designPatterns.button.WindowsButton;
-import com.scaler.advancejava.designPatterns.dropdown.DropDown;
-import com.scaler.advancejava.designPatterns.dropdown.WindowsDropDown;
+import com.scaler.advancejava.designPatterns.factory.button.Button;
+import com.scaler.advancejava.designPatterns.factory.button.WindowsButton;
+import com.scaler.advancejava.designPatterns.factory.dropdown.DropDown;
+import com.scaler.advancejava.designPatterns.factory.dropdown.WindowsDropDown;
 
 public class WindowsUIFactory implements UIFactory{
     @Override
